@@ -1,0 +1,14 @@
+diff --git a/pages/index.island.vue b/pages/index.island.vue
+index 8d966b3..3f69d54 100644
+--- a/pages/index.island.vue
++++ b/pages/index.island.vue
+@@ -1,7 +1,9 @@
+ <script setup lang="ts">
+ import Counter from '../components/Counter.vue' with { island: 'load' }
++import Second from '../components/Second.vue' with { island: 'load' }
+ </script>
+ 
+ <template>
+   <Counter />
++  <Second />
+ </template>
